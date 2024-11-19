@@ -1,0 +1,55 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Visual Studio
+.vscode/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# JetBrains IDEs (Rider, IntelliJ, etc.)
+.idea/
+*.iml
+*.sln.iml
+
+# Build directories
+bin/
+obj/
+out/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Generated files
+*.dll
+*.exe
+*.pdb
+
+# Other
+*.db
+*.lock
+*.cache
+*.diff
+*.patch
+*.orig
+*.rej
+
+# Docker
+*.dockerignore
+Dockerfile
+
+# .NET User Settings
+*.userprefs
+*.vspscc
+*.vssscc
+*.vspx
+*.scc
+BedeLottery.sln.DotSettings.user
