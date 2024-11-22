@@ -4,7 +4,7 @@ using BedeLottery.Logic.Models.Records;
 
 namespace BedeLottery.Logic.Services;
 
-public class ConsoleUserInterface : IUserInterface
+public sealed class ConsoleUserInterface : IUserInterface
 {
     public int GetTicketPurchaseCount(decimal balance, decimal ticketPrice, int maxTickets)
     {

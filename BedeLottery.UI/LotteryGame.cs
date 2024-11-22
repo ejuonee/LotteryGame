@@ -6,7 +6,7 @@ using BedeLottery.Logic.Validation;
 
 namespace BedeLottery.UI;
 
-public class LotteryGame
+public sealed class LotteryGame
 {
     private readonly LotteryConfiguration _config;
     private readonly IPlayerService _playerService;

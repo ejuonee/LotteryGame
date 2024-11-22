@@ -6,7 +6,7 @@ using BedeLottery.Logic.Models.Records;
 
 namespace BedeLottery.Logic.Services;
 
-public class PrizeService : IPrizeService
+public sealed class PrizeService : IPrizeService
 {
     private readonly IRandomNumberGenerator _random;
 

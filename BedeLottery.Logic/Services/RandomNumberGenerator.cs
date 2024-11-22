@@ -2,7 +2,7 @@ using BedeLottery.Logic.Interfaces;
 
 namespace BedeLottery.Logic.Services;
 
-public class RandomNumberGenerator : IRandomNumberGenerator
+public sealed class RandomNumberGenerator : IRandomNumberGenerator
 {
     private readonly Random _random = new ();
     public int Next() => _random.Next();

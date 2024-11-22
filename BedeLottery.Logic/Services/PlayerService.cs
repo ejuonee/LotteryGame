@@ -5,7 +5,7 @@ using BedeLottery.Logic.Validation;
 
 namespace BedeLottery.Logic.Services;
 
-public class PlayerService:IPlayerService
+public sealed class PlayerService:IPlayerService
 {
     private readonly IRandomNumberGenerator _random;
 

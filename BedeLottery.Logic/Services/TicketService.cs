@@ -5,7 +5,7 @@ using BedeLottery.Logic.Validation;
 
 namespace BedeLottery.Logic.Services;
 
-public class TicketService:ITicketService
+public sealed class TicketService:ITicketService
 {
     private readonly IRandomNumberGenerator _random;
     private readonly IUserInterface _ui;
